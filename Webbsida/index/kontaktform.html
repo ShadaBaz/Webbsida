@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <!DOCTYPE html>
+    <html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontaktformulär</title>
+        <link rel="icon" href="TT.png" type="image/.png">
+        <link rel="apple-touch-icon" href="TT.png">
+        <link rel="stylesheet" href="./mall.css"/>
+        </head>
+<body>
+    <a id="toppen"></a>
+    <header><h4>Kontakta mig om ni har frågor eller behöver konsult. Jag pratar arabiska (irakisk dialekt),englska, kurdiska (feili), persiska och så klart svenska.</h4>
+            <nav class="menu">
+            <ul> 
+                <li><a href="index.html">Hem</a></li>
+                  <li> 
+                <a href="../index/galleri.html" target="_blank">Galleri</a>
+                       </li>
+                       <li>
+                        <a href="../index/kontaktform.html" target="_blank">Kontaktformulär</a>
+                       </li> 
+                       <li>
+                        <a href="../index/kontaktuppgifter.html" target="_blank">Kontaktuppgifter</a>
+                       </li> 
+                    </ul>
+                </nav>
+            </header>
+   
+   
+    <form action="Tack.html" method="POST">
+        <fieldset style="width: 85%;">
+            
+            <br><legend>FORMULÄR FÖR ATT SKICKA MEDDELANDE</legend></br>
+            
+            <label for="fnamn">Förnamn:</label><br>
+            <input type="text" name="fnamn" id="fnamn" ><br>
+            <label for="enamn">Efternamn:</label> <br>
+            <input type="text" name="enamn" id="enamn" /><br>
+            <label for="epost">E-postadress:</label><br>
+            <input type="email" name="epost" id="epost" required><br>
+            <label for="epost">Upprepa postadress:</label> <br>
+            <input type="email" name="epost2" id="epost2" required><br>
+            <label for="meddelande">Meddelande:</label> <br>
+            <textarea name="meddelande" id="meddelande" cols="40" rows="5"></textarea> 
+            <label for="skicka"></label>
+            
+            </fieldset>
+            <h2>Tyck gärna om min hemsida</h2>
+    
+            <ol>
+     <li><input type="radio" name="omdome" value="Suveran" checked> Suverän (Ros) 
+    </li> 
+     <li><input type="radio" name="omdome" value="Brajobbat">Bra jobbat</li>
+     <li><input type="radio" name="omdome" value="Mindrebra">Du kunde ha gjort det bättre</li>
+     <li><input type="radio" name="omdome" value="daligt">Vad är detta för något (Ris)</li>
+    </ol>
+    <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+    </form>
+    <footer id="footer">
+        <h4>Made for Shadisson AB</h4>
+        <a href="#toppen">To The Tope</a>
+    </footer>
+</body>
+</html>
